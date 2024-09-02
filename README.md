@@ -42,7 +42,7 @@ The project is conducted using RStudio 4.4. The data and analyses are organized 
   Contains pdf files of some details in data attributes, imputation, and supplementory figures useful for the report of the Project.
 
 ## Detail data attributed and imputation
-The detail about the data variables in 'bt_with_history_encoded.R' and imputation of missing values are in the file 'Data Attributes and Imputation.pdf' in the folder 'Additional_materials'
+The detail about the data variables in 'bt_with_history_encoded.R' and imputation of missing values are in the file 'Data Attributes and Imputation.pdf' in the folder 'Additional_materials'.
 
 
 ### Instructions
