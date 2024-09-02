@@ -11,10 +11,12 @@ The project is conducted using RStudio 4.4. The data and analyses are organized 
 
 - **data:** This directory contains all data files.
   - **processed:** This folder contains the original datasets used in this project, which were obtained from the private GitHub repository [https://github.com/neuroTom/melanopsin-IRL-Iok](https://github.com/neuroTom/melanopsin-IRL-Iok). The datasets are listed below:
-    - **`bt_cognitive_variables.RData`:** Contains variables related to cognitive task performances.
-    - **`bt_kss.RData`:** Contains KSS (Karolinska Sleepiness Scale) scores.
-    - **`bt_baseline.RData`:** Contains questionnaire answers of subjects.
-    - **`spectrawear_long.RData`:** Contains light exposure measures, including the α-opic EDI, throughout the experiment.
+    - **brightertime:** Data collected by the Brighter Time smartphone app.
+        - **`bt_cognitive_variables.RData`:** Contains variables related to cognitive task performances.
+        - **`bt_kss.RData`:** Contains KSS (Karolinska Sleepiness Scale) scores.
+        - **`bt_baseline.RData`:** Contains questionnaire answers of subjects.
+    - **SpectraWear:** Data collected by the SpectraWear light-logger device.
+        - **`spectrawear_long.RData`:** Contains light exposure measures, including the α-opic EDI, throughout the experiment.
 
 ## Data Preprocessing
 - Data from the original datasets were aggregated and processed to prepare the working dataset for analysis. Preprocessing steps, including data cleaning and feature encoding, are detailed in the `preprocessing.R` script.
