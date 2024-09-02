@@ -23,7 +23,9 @@ The project is conducted using RStudio 4.4. The data and analyses are organized 
 - **RScripts:** This folder contains the Rscripts for all data manipulation and analysis.
     - **EDA.R:** Exploratory data analysis on all datasets.
     - **Data_Prepocessing_and_Aggregation.R:** This RScript derived the data 'bt_with_history_hour_encoded.RData' from the original datasets. All imputations and aggregations were performed here.
-    - **
+    - **RandomForest.R:** Training process of all Random Forest models on cognitive task metrics with MEDI features, aims to find the impact of MEDI history on cognitive performance.
+    - **ANOVA.R:** ANOVA tests on KSS and MEDI variables with normality and homogeneity of variance check.
+    - **Linear_Mixed_Model.R:** Linear Mixed Models on cognitive task metrics with subject as the random effect, aims to find the impact of KSS, circadian phase, and daily variation on cognitive performance.
 - **figures:** This folder contains all figures produced from the RScripts.
   
 ## Data Preprocessing
