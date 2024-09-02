@@ -7,6 +7,7 @@ This project aims to uncover relationships between light exposure history and hu
 
 ### Project Structure
 The project is conducted using RStudio 4.4. The data and analyses are organized as follows:
-- **data: This is the directory for all data files.**
+- **data:**
+  This is the directory for all data files.
   - **processed:**
-    This folder contains all the original datasets provided from 
+    This folder contains all the original datasets provided by
