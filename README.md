@@ -49,8 +49,8 @@ The detail about the data variables in 'bt_with_history_encoded.R' and imputatio
    - Install the required R packages listed in 'RPackages.txt'.
 
 2. **Running Analysis in the following steps:**
-    1. **Data_Preprocessing_and_Aggregation.R**: Create the working data 'bt_with_history_hour_encoded.R'. MUST BE RAN FIRST!
-    2. **EDA.R:** Data visualisation.
+    1. **Data_Preprocessing_and_Aggregation.R**: Create the working data 'bt_with_history_hour_encoded.R' in the folder 'working_data'. MUST BE RAN FIRST!
+    2. **EDA.R:** Data exploration and visualisations.
     3. **Linear_Mixed_Model.R:** Linear Mixed Models on cognitive performance with KSS, circadian phase, and daily variation.
     4. **ANOVA.R:** MEDI variables by KSS scores.
     5. **RandomForest.R:** Random Forest Models.
