@@ -15,7 +15,7 @@ The project is conducted using RStudio 4.4. The data and analyses are organized 
         - **`bt_cognitive_variables.RData`:** Contains variables related to cognitive task performances.
         - **`bt_kss.RData`:** Contains subjective sleepiness measured by the KSS (Karolinska Sleepiness Scale) scores.
         - **`bt_baseline.RData`:** Contains questionnaire answers of subjects.
-    - **SpectraWear:** Data collected by the SpectraWear light-logger device.
+    - **spectrawear:** Data collected by the SpectraWear light-logger device.
         - **`spectrawear_long.RData`:** Contains light exposure measures, including the α-opic EDI, throughout the experiment.
     - **working_data:** Data used for all analyses.
         -**bt_with_history_hour.RData:** Aggregated data derived from the original datasets, it contains the cognitive task performances, subjective sleepiness, and 24-hour melanopic-EDI history before the initiation of the tasks.
