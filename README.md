@@ -38,7 +38,7 @@ The project is conducted using RStudio 4.4. The data and analyses are organized 
  - **latex_tables:**
    The Random Forest performance metrics tables in LaTeX code. All tables are generated from 'RandomForest.R'
 
-- **Additional_materials:**
+- **additional_materials:**
   Contains pdf files of some details in data attributes, imputation, and supplementory figures useful for the report of the Project.
 
 ## Detail data attributed and imputation
