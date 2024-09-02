@@ -43,20 +43,16 @@ The project is conducted using RStudio 4.4. The data and analyses are organized 
 The detail about the data variables in 'bt_with_history_encoded.R' and imputation of missing values are in the file 'Data Attributes and Imputation.pdf' in the folder 'Additional_materials'
 
 
-## Usage Instructions
-
+### Instructions
 1. **Setup:**
    - Ensure you have RStudio 4.4.1 installed.
    - Install the required R packages listed in 'RPackages.txt'.
 
-2. **Running Analysis:**
+2. **Running Analysis in the following steps:**
     1. **Data_Preprocessing_and_Aggregation.R**: Create the working data 'bt_with_history_hour_encoded.R'. MUST BE RAN FIRST!
     2. **EDA.R:** Data visualisation.
     3. **Linear_Mixed_Model.R:** Linear Mixed Models on cognitive performance with KSS, circadian phase, and daily variation.
     4. **ANOVA.R:** MEDI variables by KSS scores.
     5. **RandomForest.R:** Random Forest Models.
 
-   ```R
-   # Example command to load data
-   load("data/processed/bt_cognitive_variables.RData")
 
