@@ -1,4 +1,5 @@
-setwd("C:/Users/edwin/OneDrive - The University of Manchester/Data_Science/Msc_Data_Science/Extended Research Project/melanopsin-IRL-Iok-dev/repository")
+# Set working directory and clear workspace
+setwd("C:/path/Light-History-and-Human-Behaviour/repository")
 rm(list=ls(all=TRUE))
 
 # tell here where we are
