@@ -21,8 +21,8 @@ The project is conducted using RStudio 4.4. The data and analyses are organized 
         -**bt_with_history_hour.RData:** Aggregated data derived from the original datasets, it contains the cognitive task performances, subjective sleepiness, and 24-hour melanopic-EDI history before the initiation of the tasks.
 
 - **RScripts:** This folder contains the Rscripts for all data manipulation and analysis.
-    - **EDA.R:** Exploratory data analysis on all datasets.
-    - **Data_Prepocessing_and_Aggregation.R:** This RScript derived the data 'bt_with_history_hour_encoded.RData' from the original datasets. All imputations and aggregations were performed here.
+    - **EDA.R:** Exploratory data analysis on all datasets. Most discoveries of the project were found here.
+    - **Data_Preprocessing_and_Aggregation.R:** This RScript derived the data 'bt_with_history_hour_encoded.RData' from the original datasets. All imputations and aggregations were performed here.
     - **RandomForest.R:** Training process of all Random Forest models on cognitive task metrics with MEDI features, aims to find the impact of MEDI history on cognitive performance.
     - **ANOVA.R:** ANOVA tests on KSS and MEDI variables with normality and homogeneity of variance check.
     - **Linear_Mixed_Model.R:** Linear Mixed Models on cognitive task metrics with subject as the random effect, aims to find the impact of KSS, circadian phase, and daily variation on cognitive performance.
@@ -36,20 +36,25 @@ The project is conducted using RStudio 4.4. The data and analyses are organized 
  - **latex_tables:**
    The Random Forest performance metrics tables in LaTeX code. All tables are generated from 'RandomForest.R'
 
+- **Additional_materials:**
+  Contains pdf files of some details in data attributes, imputation, and supplementory figures useful for the report of the Project.
 
+## Detail data attributed and imputation
+The detail about the data variables in 'bt_with_history_encoded.R' and imputation of missing values are in the file 'Data Attributes and Imputation.pdf' in the folder 'Additional_materials'
 
-## Data Preprocessing
-- Data from the original datasets were aggregated and processed to prepare the working dataset for analysis. Preprocessing steps, including data cleaning and feature encoding, are detailed in the `preprocessing.R` script.
 
 ## Usage Instructions
 
 1. **Setup:**
-   - Ensure you have RStudio 4.4 installed.
-   - Install the required R packages listed in `requirements.txt` (if applicable).
+   - Ensure you have RStudio 4.4.1 installed.
+   - Install the required R packages listed in 'RPackages.txt'.
 
 2. **Running Analysis:**
-   - Load the datasets into RStudio using the provided R scripts.
-   - Execute the scripts `anova_analysis.R`, `linear_mixed_models.R`, and `random_forest_models.R` to perform the analyses.
+    1. **Data_Preprocessing_and_Aggregation.R**: Create the working data 'bt_with_history_hour_encoded.R'.
+    2. **EDA.R:** Data visualisation.
+    3. **Linear_Mixed_Model.R:** Linear Mixed Models on cognitive performance with KSS, circadian phase, and daily variation.
+    4. **ANOVA.R:** MEDI variables by KSS scores.
+    5. **RandomForest.R:** Random Forest Models.
 
    ```R
    # Example command to load data
