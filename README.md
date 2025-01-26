@@ -4,7 +4,7 @@
 Iok Weng Chan
 
 ## Project Objective
-This project aims to uncover relationships between light exposure history and human behaviors by applying statistical methods such as ANOVA, linear mixed models, and Random Forest models to experimental data.
+This project aims to uncover relationships between light exposure history and human behaviors by applying statistical methods such as ANOVA, linear mixed models, and Random Forest models to experimental data. The experimental data was provided by the University of Manchester, where more details were described in the paper [Associations between light exposure and sleep timing and sleepiness while awake in a sample of UK adults in everyday life](https://www.pnas.org/doi/10.1073/pnas.2301608120)
 
 ## Project Structure
 The project is conducted using RStudio 4.4. The data and analyses are organized as follows:
